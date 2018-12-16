@@ -9,3 +9,4 @@ def sniffAction(pkt):
 
 
 sniff(filter="dst host 172.20.10.4 and port 12321 and udp", prn = sniffAction, store=0)
+# On the filter dst host we need to type the IP address of the destenation host of the packets we want to sniff.
