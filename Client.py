@@ -2,7 +2,7 @@ import socket
 import time
 import Extras
 
-serverAddressPort = ("127.0.0.1", 12321)
+serverAddressPort = ("127.0.0.1", 12321) # Now is set for local host can be change to any IP of the server.
 bufferSize = 1024
 count = 0
 
