@@ -52,10 +52,3 @@ while True:
         print("####################################")
         break
 
-# sniff(iface="lo0", prn = lambda x: x.show(), store=0)
-# cd scapy
-# ./run_scapy
-
-#        bytesToSend = str.encode(str(seq) + "\t" + msgFromClient[start:end])
-
-
