@@ -10,7 +10,7 @@ def recover_packet(lst):
     UDPServer.sendto(recovered_packet, address)
 
 
-localIP = "127.0.0.1"
+localIP = "127.0.0.1" # Now is set for localhost can be change to any IP that we running the server on.
 localPort = 12321
 bufferSize = 1024
 counter = 0
