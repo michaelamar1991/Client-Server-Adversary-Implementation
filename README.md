@@ -1,0 +1,2 @@
+# Client-Server-Adversary-Implementation
+This is an implementation of simple web HTTP server that listens to specific port, a client that send chunks of data to the server and adversary that sniffing those packets. The adversary may prevent some packets from arrive at this destination so the client send XOR code of all the messages in the first packet and then if needs the server know to restore the lost packet using restore function from the XOR code.
