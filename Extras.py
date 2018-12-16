@@ -1,9 +1,9 @@
 import binascii
 from operator import xor
 
-UDP_IP = "127.0.0.1"
+UDP_IP = "127.0.0.1" # IP of the server - now set on localhost can be changes to any IP address we want to run the server on.
 UDP_PORT = 12321
-D = 5 # The sequence number of the package that we will lost.
+D = 5 # The sequence number of the package that we will lost (For demonstration we choose packet to loose to make sure we will some some data then we can restore it with the restore function on the server side.).
 n = 70 # The size of the splitted data without the sequence number and the UDP&IP headers.
 
 
