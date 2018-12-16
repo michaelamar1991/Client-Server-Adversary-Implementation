@@ -9,3 +9,15 @@ First run the server then the Sniffer and then run the Client.
 3) Python Client.py
 
 you will see the data transferred between the client and the server and can watch the sniffed data on the Sniffer terminal window.
+
+Client side:
+
+![alt text](https://github.com/michaelamar1991/Client-Server-Adversary-Implementation/blob/master/T3_Client.png?raw=true)
+
+Server side:
+
+![alt text](https://github.com/michaelamar1991/Client-Server-Adversary-Implementation/blob/master/T3_Server.png?raw=true)
+
+Sniffer side:
+
+![alt text](https://github.com/michaelamar1991/Client-Server-Adversary-Implementation/blob/master/T3_Sniffer.png?raw=true)
